@@ -1,0 +1,99 @@
+.weather {
+  width: 600px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  background-color: #333;
+  margin: 60px auto 0 auto;
+  padding: 0 20px 20px 20px;
+  background-image: url("/Users/gm10/Desktop/bg.png");
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
+
+.table,th,td{
+  padding: 15px;
+  margin-top: 40px;
+  border: 1px solid;
+  border-spacing: 0;
+  width: 100%;
+  border-collapse: collapse;
+  height: 30%;
+  box-shadow: 2px 2px 12px rgb(0,0,0,0.2) ,-1px -1px 8px rgb(0, 0,0,0.2);
+}
+.tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.th{
+  background-color: #3394D5;
+  color: white;
+}
+
+tr:nth-child(odd):hover{
+  background-color: black;
+  color: red;
+}
+
+tr:nth-child(even):hover{
+  background-color: black;
+  color: red;
+}
