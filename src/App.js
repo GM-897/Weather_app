@@ -4,9 +4,12 @@ import CurrentWeather from "./components/current-weather/CurrentWeather";
 import Forecast from "./components/forecast";
 import { WEATHER_API_URL, API_KEY } from "./api";
 import "./App.css";
+
 // import Intro from "./Intro";
 
+
 function App() {
+  
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
   
@@ -33,7 +36,7 @@ function App() {
   console.log(currentWeather);
   console.log(forecast);
 
-  return (
+  return (//shutup
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
       {/* <Intro /> */}
